@@ -6,6 +6,7 @@ export default StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    
   },
 
   txt: {
@@ -19,9 +20,26 @@ export default StyleSheet.create({
 
   txtInput: {
     borderWidth: 1,
-    borderColor: "#000",
-    width: "90%",
+    borderColor: "blue",
+    width: "100%",
     padding: 5,
+    marginBottom:5
   },
+  image:{
+    width:200,
+    height:150,
+    
+  },
+  botao:{
+    margin:10,
+  },
+  textoLista:{
+    borderWidth: 1,
+    padding:5,
+   
+  }, lista:{
+    height:150,
+    marginTop:10
+  }
 
 });
