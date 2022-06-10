@@ -1,4 +1,4 @@
-import { StyleSheet, Text, } from 'react-native';
+import {  Text, } from 'react-native';
 import Estilos from '../estilos/estilos.js'
 
 
@@ -9,10 +9,3 @@ export default function comp1(props){
     );
 }
 
-const styles = StyleSheet.create({
-    text: {
-        color: 'red',
-      
-    },
-  
-  });

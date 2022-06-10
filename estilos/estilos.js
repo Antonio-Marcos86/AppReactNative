@@ -39,7 +39,9 @@ export default StyleSheet.create({
    
   }, lista:{
     height:150,
-    marginTop:10
+    marginTop:10,
+    width:'100%',
+    padding:10
   }
 
 });

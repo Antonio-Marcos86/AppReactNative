@@ -16,6 +16,17 @@ const produtos=[
         produto:'Monitor',
         preco: 850.99,
     }
+    ,
+    {
+        id:4,
+        produto:'Monitor',
+        preco: 850.99,
+    },
+    {
+        id:5,
+        produto:'Monitor',
+        preco: 850.99,
+    }
 ]
 export default function(){
     return(
@@ -24,7 +35,7 @@ export default function(){
                 style={estilos.lista}
                 data={produtos}
                 keyExtractor={item=>item.id}
-                renderItem={({item})=><Text style={estilos.textoLista}>Produto: {item.produto} | Valor: R$ {item.preco}</Text>}           
+                renderItem={({item})=><Text style={estilos.textoLista}>{item.produto} R$ {item.preco}</Text>}           
             />
         </View>
 
